@@ -26,3 +26,6 @@ Purgatory/
 
 # IDE stuff
 .cursor/
+
+# frontend stuff
+frontend/node_modules/
