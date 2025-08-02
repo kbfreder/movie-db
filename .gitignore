@@ -1,0 +1,28 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.python-version
+
+# Environment variables
+.env
+
+# mac stuff	
+.DS_Store/
+
+# Jupyter notebooks stuff
+.ipynb_checkpoints/
+
+# my peculiar way of working
+ip.py
+Purgatory/
+*Copy*.ipynb
+
+# IDE stuff
+.cursor/

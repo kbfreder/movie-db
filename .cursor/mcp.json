@@ -1,0 +1,14 @@
+{
+	"mcpServers": {
+	  "neo4j-local": {
+		"command": "uvx",
+		"args": ["mcp-neo4j-cypher@0.3.0", "--transport", "stdio"],
+		"env": {
+		  "NEO4J_URI": "neo4j://localhost:7687",
+		  "NEO4J_USER": "neo4j",
+		  "NEO4J_PASSWORD": "password",
+		  "NEO4J_DATABASE": "neo4j"
+		}
+	  }
+	}
+  }
